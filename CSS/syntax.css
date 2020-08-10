@@ -3,44 +3,17 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* Borders*/
+/* Block-level Elements*/
 
-.box{
-   padding: 20px;
-   margin: 20px;
-   float: left;
-}   
-
-.dashed{
-    border: 1px blue dashed;
+.block{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
 }
 
-.dotted{
-    border: 1px blue dotted;
+.inline{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    display: inline-block;
 }
-
-.double{
-    border: 4px blue dotted;
-}
-
-.groove{
-    border: 4px blue groove;
-}
-
-.inset{
-    border: 4px blue inset;
-}
-
-.outset{
-    border: 4px blue outset;
-}
-
-.ridge{
-    border: 4px blue ridge;
-}
-
-.solid{
-    border: 4px blue solid;
-}
-
-
