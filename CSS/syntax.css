@@ -3,18 +3,15 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* Hover, Active & Visited Effects*/
+/*  First & Last Child Selectors*/
 
-a:hover{
+article p:first-child{
+    font-weight: bold;
+}
+
+article p:last-child{
     color: red;
 }
 
-a:active{
-    color: orange;
-}
-
-a:visited{
-    color: purple;
-}
 
 
