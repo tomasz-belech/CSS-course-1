@@ -3,18 +3,14 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* Attribute Selectors*/
+/* Pseudo Selectors*/
 
-span[class~="deck"]{
-    color: purple;
+a:hover{
+    color: red;
+
 }
 
-div[id]{
-    background: grey;
+#main-content:hover{
+    background:  red;
 }
-
-a[href$="pdf"]{
-    color: green;
-}
-
 
