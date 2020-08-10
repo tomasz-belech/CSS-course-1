@@ -3,14 +3,18 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  Text Transform*/
+/*  Text Color*/
 
-#header p{
-    text-transform: capitalize;
+#header h1{
+    color: chocolate;
 }
 
-body > p{
-    text-transform: lowercase;
+#header h2{
+    color: #567398;
+}
+
+#header{
+    background-color: antiquewhite;
 }
 
 
