@@ -3,9 +3,17 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* Descendant Selectors*/
+/* Attribute Selectors*/
 
-#all-articles h2 + p{
+span[class~="deck"]{
+    color: purple;
+}
+
+div[id]{
+    background: grey;
+}
+
+a[href$="pdf"]{
     color: green;
 }
 
