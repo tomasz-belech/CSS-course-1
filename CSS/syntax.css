@@ -3,9 +3,13 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  Text Decoration*/
+/*  Font Weight*/
 
 
-a{
-    text-decoration: underline;
+h1{
+    font-weight: normal;
+}
+
+p{
+    font-weight: lighter;
 }
