@@ -5,18 +5,10 @@
 *********************************************/
 /* TARGETING ELEMENTS / TAGS */
 
-h2{
-    font-size: 24px;
-}
-#content-header{
-    font-size: 18px;
-    color: red;
+span{
+    color: blue;
 }
 
 span{
-    display: block;
-    color: blue;
-}
-.deck{
     color: red;
 }
