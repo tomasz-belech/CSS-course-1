@@ -3,10 +3,20 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* style all P tags */
+/* TARGETING ELEMENTS / TAGS */
 
-p{
+h2{
+    font-size: 24px;
+}
+#content-header{
     font-size: 18px;
     color: red;
 }
 
+span{
+    display: block;
+    color: blue;
+}
+.deck{
+    color: red;
+}
