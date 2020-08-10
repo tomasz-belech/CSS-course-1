@@ -3,13 +3,8 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  Combining Selectors*/
+/*  The Universal Selector*/
 
-article.featured-content{
-    background: red;
+*{
+    color: blue;
 }
-
-div.featured-content{
-    background: blue;
-}
-
