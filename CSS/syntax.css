@@ -3,13 +3,13 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  First & Last Child Selectors*/
+/*  First & Last of Type Selectors*/
 
-article p:first-child{
+article p:first-of-type{
     font-weight: bold;
 }
 
-article p:last-child{
+article p:last-of-type{
     color: red;
 }
 
