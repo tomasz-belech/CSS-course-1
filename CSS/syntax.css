@@ -3,12 +3,15 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*   Paragraph Spacing*/
+/* The Box Model*/
 
-p{
-    font-size: 14px;
-    line-height: 2em;
-    margin-bottom: 32px;
+.box{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
 }
+
 
 
