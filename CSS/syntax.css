@@ -3,19 +3,12 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* SELECTOR SPECIFICITY*/
-
-#main-content p{
-    color: red;
-}
+/* The Important Declaration*/
 
 p{
-    color: black;
-}
-.test{
-    color: green;
+    color: red !important;
 }
 
-strong{
-    color: green;
+#main-content p{
+    color:green;
 }
