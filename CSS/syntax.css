@@ -3,16 +3,19 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* TARGETING ELEMENTS / TAGS */
+/* SELECTOR SPECIFICITY*/
 
-body{
+#main-content p{
     color: red;
 }
 
-div{
-    color: blue;
+p{
+    color: black;
+}
+.test{
+    color: green;
 }
 
-p{
+strong{
     color: green;
 }
