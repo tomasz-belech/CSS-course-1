@@ -3,12 +3,10 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* Target Multiple Elements*/
-
-p, span, a, li{
+/* Descendant Selectors*/
+#sub-content p{
     color: red;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Arial;
 }
+
+
 
