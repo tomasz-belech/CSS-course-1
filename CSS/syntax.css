@@ -3,10 +3,13 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  nth of Type Selectors*/
+/*  Combining Selectors*/
 
+article.featured-content{
+    background: red;
+}
 
-article:nth-of-type(2n + 1){
-    background: grey;
+div.featured-content{
+    background: blue;
 }
 
