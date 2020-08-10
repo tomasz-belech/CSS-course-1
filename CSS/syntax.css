@@ -3,14 +3,13 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* The Box Model*/
+/* Margin*/
 
 .box{
-    margin: 30px;
+    margin: 30px auto;
     padding: 30px;
     border: 1px solid #000;
-    width: 400px;
-    height: 200px;
+    width: 500px;
 }
 
 
