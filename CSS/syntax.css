@@ -3,13 +3,14 @@
 * Date: 10.08.20
 *
 *********************************************/
-/*  Font Weight*/
+/*  Text Transform*/
 
-
-h1{
-    font-weight: normal;
+#header p{
+    text-transform: capitalize;
 }
 
-p{
-    font-weight: lighter;
+body > p{
+    text-transform: lowercase;
 }
+
+
