@@ -3,12 +3,12 @@
 * Date: 10.08.20
 *
 *********************************************/
-/* The Important Declaration*/
+/* Target Multiple Elements*/
 
-p{
-    color: red !important;
+p, span, a, li{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
 }
 
-#main-content p{
-    color:green;
-}
